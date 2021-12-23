@@ -1,10 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Signup } from './components/Signup/Signup';
 
 function App() {
   return (
     <div className="App">
+      <Signup theme={{ background: "red", textColor: "green" }} />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
